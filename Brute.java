@@ -140,4 +140,9 @@ public class Brute {
     public SudokuGrid getCurrentGrid() {
         return stack.peek();
     }
+
+    /**
+     * @return The current stack height
+     */
+    public int getStackHeight() { return stack.size(); }
 }

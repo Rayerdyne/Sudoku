@@ -6,6 +6,14 @@ This can help you solve sudoku, but is useless in terms of spaghetti cooking. Pl
 
 I guess I should describe it here, so here it is.
 
+I wrote a full explaination of the working principles of this program [here](details/Explaination-full.md).
+
+## Challenge
+
+There is a way to break the program. At least, I tought to a scenario that I did not explicitly handled, so that I cannot tell you what will happen in that case.
+
+The challenge is not to find it and have the time of your life without having that bug.
+
 # Capture
 
 ![capture](capture.png)

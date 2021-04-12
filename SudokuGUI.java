@@ -329,6 +329,7 @@ public class SudokuGUI extends JPanel implements KeyListener {
         brute.solve();
         sg = brute.getCurrentGrid();
         syncGrids();
+        // System.out.println("Stack height: " + brute.getStackHeight());
     }
 
     /**

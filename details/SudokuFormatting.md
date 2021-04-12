@@ -1,5 +1,7 @@
 # Sudoku formatting
 
+Spoiler alert: if you read this you will feel like I think you're dumb. I wrote this for myself becase I actually *am* sometimes...
+
 The string representation of a sudoku grid is straightforward:
 
 ```
@@ -12,9 +14,19 @@ The string representation of a sudoku grid is straightforward:
 3 4 5 6 7 8 9 1 2
 6 7 8 9 1 2 3 4 5
 9 1 2 3 4 5 6 7 8
+
+1 2 3 4 5 6 7 8 9
+4 5 6 7 8 - 1 2 3
+7 - 9 1 2 3 4 5 6
+2 3 - 5 6 - 8 9 1
+5 6 7 8 9 1 2 3 4
+8 9 1 2 3 4 5 - -
+3 4 5 6 7 8 - - -
+6 7 8 9 1 2 3 - 5
+9 1 2 3 4 5 6 - 8
 ```
 
-is correct and valid. 
+are correct and valid. 
 
 - This handles multiple spaces between values.
 

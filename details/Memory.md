@@ -10,14 +10,14 @@ Warning: this may become more technical (but well it does not mean that it is un
 
 Code of `Cell` class [here](../Cell.java).
 
-| Variable  | Description                      | Type       | Size  in bytes |
-| --------- | -------------------------------- | ---------- | -------------- |
-| `v`       | The value of that cell           | `int`      | 4              |
-| `line`    | The `Cell`s on the same line     | `&Cell[8]` | 8×8 = 64       |
-| `column`  | The `Cell`s on the same column   | `&Cell[8]` | 8×8 = 64       |
-| `block`   | The `Cell`s on the same block    | `&Cell[8]` | 8×8 = 64       |
-| `accepts` | Accepted values in that `Cell`   | boolean[9] | 9×1 = 9        |
-| total     |                                  |            | 205            |
+| Variable  | Description                      | Type         | Size  in bytes |
+| --------- | -------------------------------- | ------------ | -------------- |
+| `v`       | The value of that cell           | `int`        | 4              |
+| `line`    | The `Cell`s on the same line     | `&Cell[8]`   | 8×8 = 64       |
+| `column`  | The `Cell`s on the same column   | `&Cell[8]`   | 8×8 = 64       |
+| `block`   | The `Cell`s on the same block    | `&Cell[8]`   | 8×8 = 64       |
+| `accepts` | Accepted values in that `Cell`   | `boolean[9]` | 9×1 = 9        |
+| total     |                                  |              | 205            |
 
 ## Size of one grid
 

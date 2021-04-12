@@ -35,7 +35,7 @@ When assigning some value, the grid will then send the message: "*you have been 
 
 So, when I have to find one move on a given grid, what do the program do ?
 
-First, a bit of context. We work on a stack of grids, and the "current" grid is the one at the top. (Note for newbies: a stack is a data structure containing a set of ordered object, that we can access in a LIFO fashion: Last In First Out. This behaves like a regular stack of pancakes: you can only add one or take one, but you won't be able to take the second one).
+First, a bit of context. We work on a stack of grids, and the "current" grid is the one at the top. (Note for newbies: a stack is a data structure containing a set of ordered object, that we can access in a LIFO fashion: Last In First Out. This behaves like a regular stack of pancakes: you can only add one or take one on the top, but you won't be able to take the second one).
 
 This is motivated because of the way assumption are defined: 
 > I try this, and if it doesn't work I get back to where I am now

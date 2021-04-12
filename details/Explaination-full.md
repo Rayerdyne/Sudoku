@@ -45,7 +45,7 @@ Here, we remember the *this* and the *where I am now* on two stacks.
 1) Look in the set of not yet assigned cells, and find the one that has the less possible values, let's call this cell Cécile.
 2) If Cécile has one possible value: assign this value to Cécile
 3) Else if Cécile has more than one possibility, copy the current grid and add it on the top of the assuption stack. Then assign to Cécile the least possible value, push the move that has just been made (assigning some value `v` to Cécile) and go on.
-4) Aaaargh, Cécile has 0 possible values ! This means that you should have made an incorrect assumption. Then, pop a grid on the stack of grids and the corresponding false assumption. By definition, this move featured a cell that had more than one possible value. Thus, assign to this cell the next possible value.
+4) Aaaargh, Cécile has 0 possible values ! This means that you should have made an incorrect assumption. Then, pop a grid on the stack of grids and the corresponding false assumption. By definition, this move featured a cell that had more than one possible value. Thus, assign to this cell the next possible value. If there is none, this means that previous assumption was also wrong: continue pooping until you find a move that has another possibility.
 
 Note that this stack is erased each time the user modify something on the grid, because there is no way of keeping track of all that shit easily (I just gave up, for short).
 

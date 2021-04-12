@@ -42,6 +42,8 @@ So, if we want to solve a grid that is initially empty (who never thought that y
 4) Each last cell of block does not requires any assumption → -4 → 60
 I say 4 because (I think that) the worst case is when you fill the grid line by line. Thus, the last element of the block up right will be at the end of third line, so that it has already been counted in 2. Same for the block middle right with sixth line. (If you actually read this... I gold but the A is silent) And again for bottom blocks and the last line. Remains 4: up left, up middle, middle left and middle middle.
 
+I have to credit a friend here. He knows why.
+
 So that my guess is that this program would at most use: 
 
 ```

@@ -3,7 +3,7 @@
 First, I just wrote this because.
 Thus, don't judge me ok ?
 
-Also, I made an assessment of the program's needs in memory space [here](details/Memory.md).
+Also, I made an assessment of the program's needs in memory space [here](Memory.md).
 
 ## Cell representation
 

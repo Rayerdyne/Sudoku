@@ -6,7 +6,7 @@ This can help you solve sudoku, but is useless in terms of spaghetti cooking. Pl
 
 I guess I should describe it here, so here it is.
 
-I wrote a full explaination of the working principles of this program [here](details/Explaination-full.md).
+I wrote a full explaination of the working principles of this program [here](details/README.md).
 
 ## Challenge
 
@@ -27,7 +27,7 @@ But it's quite fun to do (?) so here it is.
 
 > Open
 
-This is used to open a text file describing a sudoku. Their (simple or dumb, idk) structure is described [here](SudokuFormatting.md).
+This is used to open a text file describing a sudoku. Their (simple or dumb, idk) structure is described [here](details/SudokuFormatting.md).
 
 > Save
 

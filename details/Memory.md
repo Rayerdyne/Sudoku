@@ -32,7 +32,7 @@ Code of `SudokuGrid` class [here](../SudokuGrid.java)
 
 ## Maximum size of stack
 
-By design (see [explainations here](Explaination-full.md)), the stack of grids is incremented at each assupmtion.
+By design (see [explainations here](README.md)), the stack of grids is incremented at each assupmtion.
 
 So, if we want to solve a grid that is initially empty (who never thought that you could create sudoku grids yourself ?), we may have to make a lot of assumptions. But how many of them ?
 

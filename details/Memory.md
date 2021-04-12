@@ -51,3 +51,5 @@ So that my guess is that this program would at most use:
 Btw, empirical test shown stack sizes varying (what we could have expected: it depends on the grid "geometry") from 46 to 51.
 
 This is an upper bound: the `notSetCell` variable will not be full that often, and may be averaged to half its maximum size.
+
+1.1 Mo of memory is quite a lot of spaghettis, but in terms of memory, it should not break your computer. Let me know in the comments below if it does, I'm really interested in making fun of you.
